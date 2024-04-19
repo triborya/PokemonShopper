@@ -441,6 +441,7 @@ p {
   margin-left: 40px;
   padding-left: 10px;
   padding-right: 10px;
+  z-index: 999;
 }
 
 .one-result {
@@ -495,6 +496,7 @@ p {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   background-color: #2185d0;
+  z-index: 1;
 }
 .filter-bar {
   display: flex;
@@ -530,7 +532,6 @@ p {
   color: white;
   padding: 20px;
   border-radius: 20px;
-  z-index: -1;
 }
 
 .viewLink button {
@@ -690,6 +691,7 @@ p {
 .pokemonImg {
   max-width: 280px;
   max-height: 373px;
+  z-index: -0;
 }
 .cart-image {
   max-width: 300px;
